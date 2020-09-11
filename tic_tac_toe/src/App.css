@@ -1,5 +1,5 @@
 body {
-	font: 14px "Century Gothic", Futura, sans-serif;
+	font: 24px "Century Gothic", Futura, sans-serif;
 	margin: 20px;
 }
 
@@ -22,19 +22,19 @@ ul {
 	background: #fff;
 	border: 1px solid #999;
 	float: left;
-	font-size: 24px;
+	font-size: 40px;
 	font-weight: bold;
-	line-height: 60px;
-	height: 60px;
+	line-height: 70px;
+	height: 70px;
 	margin-right: -1px;
 	margin-top: -1px;
 	padding: 0;
 	text-align: center;
-	width: 60px;
+	width: 70px;
 }
 
-.square:focus {
-	outline: none;
+.square:hover {
+	background: #999;
 }
 
 .kbd-navigation .square:focus {
