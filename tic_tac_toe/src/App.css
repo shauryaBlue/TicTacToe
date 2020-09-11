@@ -34,7 +34,8 @@ ul {
 }
 
 .square:hover {
-	background: #999;
+	background: #e0ffff;
+	transform: scale(1.1);
 }
 
 .kbd-navigation .square:focus {
@@ -48,4 +49,14 @@ ul {
 
 .game-info {
 	margin-left: 20px;
+}
+button {
+	background: #d1eeee;
+	font: 16px "Century Gothic", Futura, sans-serif;
+	outline: 0px;
+}
+
+button:hover,
+button:focus {
+	background: #adeaea;
 }
