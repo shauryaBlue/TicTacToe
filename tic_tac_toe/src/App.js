@@ -117,7 +117,8 @@ class Game extends React.Component {
 						flexDirection: "column"
 					}}
 				>
-					<h3 className="heading">Tic Tac Toe</h3>
+					<h3 style={{ margin: 0 }}>Tic Tac Toe</h3>
+					<h6 style={{ margin: "10px 0px 20px" }}>By Shaurya</h6>
 					<div className="game-board">
 						<Board
 							squares={current.squares}
